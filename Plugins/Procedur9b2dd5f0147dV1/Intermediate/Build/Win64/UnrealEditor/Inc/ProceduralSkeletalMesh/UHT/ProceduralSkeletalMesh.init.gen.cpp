@@ -7,23 +7,23 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeProceduralSkeletalMesh_init() {}
-	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_ProceduralSkeletalMesh;
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_ProceduralSkeletalMesh;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_ProceduralSkeletalMesh()
 	{
 		if (!Z_Registration_Info_UPackage__Script_ProceduralSkeletalMesh.OuterSingleton)
 		{
-			static const UECodeGen_Private::FPackageParams PackageParams = {
-				"/Script/ProceduralSkeletalMesh",
-				nullptr,
-				0,
-				PKG_CompiledIn | 0x00000000,
-				0x6415BDCA,
-				0xDC107CA3,
-				METADATA_PARAMS(0, nullptr)
-			};
-			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_ProceduralSkeletalMesh.OuterSingleton, PackageParams);
-		}
-		return Z_Registration_Info_UPackage__Script_ProceduralSkeletalMesh.OuterSingleton;
+		static const UECodeGen_Private::FPackageParams PackageParams = {
+			"/Script/ProceduralSkeletalMesh",
+			nullptr,
+			0,
+			PKG_CompiledIn | 0x00000000,
+			0x0C88D732,
+			0xDC107CA3,
+			METADATA_PARAMS(0, nullptr)
+		};
+		UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_ProceduralSkeletalMesh.OuterSingleton, PackageParams);
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ProceduralSkeletalMesh(Z_Construct_UPackage__Script_ProceduralSkeletalMesh, TEXT("/Script/ProceduralSkeletalMesh"), Z_Registration_Info_UPackage__Script_ProceduralSkeletalMesh, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x6415BDCA, 0xDC107CA3));
+	return Z_Registration_Info_UPackage__Script_ProceduralSkeletalMesh.OuterSingleton;
+}
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ProceduralSkeletalMesh(Z_Construct_UPackage__Script_ProceduralSkeletalMesh, TEXT("/Script/ProceduralSkeletalMesh"), Z_Registration_Info_UPackage__Script_ProceduralSkeletalMesh, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x0C88D732, 0xDC107CA3));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -179,7 +179,7 @@ public:
 
 	// Material to be applied to slice caps
 	UPROPERTY(Category = "Procedural Mesh Properties", EditAnywhere)
-	UMaterial* CapMaterial;
+	UMaterialInterface* CapMaterial;
 
 	UProceduralMeshComponent* GetProceduralMesh() { return ProceduralMesh; }
 

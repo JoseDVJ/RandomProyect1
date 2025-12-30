@@ -19,8 +19,8 @@
 			"SkinnedMeshPuppetComponent.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
 			"ProceduralSkeletalMesh.cpp.obj",
-			"ProceduralSkeletalMeshComponent.cpp.obj",
-			"SkinnedMeshPuppetComponent.cpp.obj"
+			"SkinnedMeshPuppetComponent.cpp.obj",
+			"ProceduralSkeletalMeshComponent.cpp.obj"
 		]
 	}
 }

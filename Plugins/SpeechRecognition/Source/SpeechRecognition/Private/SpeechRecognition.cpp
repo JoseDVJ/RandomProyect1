@@ -1,6 +1,11 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 
 #include "SpeechRecognition.h"
+#include "HAL/PlatformFilemanager.h"
+#include "HAL/PlatformFile.h"
+#include "Engine/World.h"
+#include "Misc/LocalTimestampDirectoryVisitor.h"
+#include "Misc/Paths.h"
 
 IMPLEMENT_MODULE( FSpeechRecognition, SpeechRecognition )
 

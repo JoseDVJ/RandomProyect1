@@ -5,6 +5,12 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "SpeechRecognitionSubsystem.h"
+
+#ifdef SPEECHRECOGNITION_SpeechRecognitionSubsystem_generated_h
+#error "SpeechRecognitionSubsystem.generated.h already included, missing '#pragma once' in SpeechRecognitionSubsystem.h"
+#endif
+#define SPEECHRECOGNITION_SpeechRecognitionSubsystem_generated_h
+
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -13,28 +19,37 @@ enum class ESpeechRecognitionLanguage : uint8;
 enum class ESpeechRecognitionParamType : uint8;
 struct FRecognisedPhrases;
 struct FRecognitionPhrase;
-#ifdef SPEECHRECOGNITION_SpeechRecognitionSubsystem_generated_h
-#error "SpeechRecognitionSubsystem.generated.h already included, missing '#pragma once' in SpeechRecognitionSubsystem.h"
-#endif
-#define SPEECHRECOGNITION_SpeechRecognitionSubsystem_generated_h
 
-#define FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_10_DELEGATE \
+// ********** Begin Delegate FStartedSpeakingSignature *********************************************
+#define FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_10_DELEGATE \
 SPEECHRECOGNITION_API void FStartedSpeakingSignature_DelegateWrapper(const FMulticastScriptDelegate& StartedSpeakingSignature);
 
 
-#define FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_11_DELEGATE \
+// ********** End Delegate FStartedSpeakingSignature ***********************************************
+
+// ********** Begin Delegate FStoppedSpeakingSignature *********************************************
+#define FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_11_DELEGATE \
 SPEECHRECOGNITION_API void FStoppedSpeakingSignature_DelegateWrapper(const FMulticastScriptDelegate& StoppedSpeakingSignature);
 
 
-#define FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_12_DELEGATE \
+// ********** End Delegate FStoppedSpeakingSignature ***********************************************
+
+// ********** Begin Delegate FWordsSpokenSignature *************************************************
+#define FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_12_DELEGATE \
 SPEECHRECOGNITION_API void FWordsSpokenSignature_DelegateWrapper(const FMulticastScriptDelegate& WordsSpokenSignature, FRecognisedPhrases Text);
 
 
-#define FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_13_DELEGATE \
+// ********** End Delegate FWordsSpokenSignature ***************************************************
+
+// ********** Begin Delegate FUnknownPhraseSignature ***********************************************
+#define FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_13_DELEGATE \
 SPEECHRECOGNITION_API void FUnknownPhraseSignature_DelegateWrapper(const FMulticastScriptDelegate& UnknownPhraseSignature);
 
 
-#define FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+// ********** End Delegate FUnknownPhraseSignature *************************************************
+
+// ********** Begin Class USpeechRecognitionSubsystem **********************************************
+#define FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execStoppedSpeaking_method); \
 	DECLARE_FUNCTION(execStartedSpeaking_method); \
 	DECLARE_FUNCTION(execUnknownPhrase_method); \
@@ -48,42 +63,46 @@ SPEECHRECOGNITION_API void FUnknownPhraseSignature_DelegateWrapper(const FMultic
 	DECLARE_FUNCTION(execEnableKeywordMode);
 
 
-#define FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_INCLASS_NO_PURE_DECLS \
+struct Z_Construct_UClass_USpeechRecognitionSubsystem_Statics;
+SPEECHRECOGNITION_API UClass* Z_Construct_UClass_USpeechRecognitionSubsystem_NoRegister();
+
+#define FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSpeechRecognitionSubsystem(); \
-	friend struct Z_Construct_UClass_USpeechRecognitionSubsystem_Statics; \
+	friend struct ::Z_Construct_UClass_USpeechRecognitionSubsystem_Statics; \
+	static UClass* GetPrivateStaticClass(); \
+	friend SPEECHRECOGNITION_API UClass* ::Z_Construct_UClass_USpeechRecognitionSubsystem_NoRegister(); \
 public: \
-	DECLARE_CLASS(USpeechRecognitionSubsystem, UWorldSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SpeechRecognition"), NO_API) \
+	DECLARE_CLASS2(USpeechRecognitionSubsystem, UWorldSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SpeechRecognition"), Z_Construct_UClass_USpeechRecognitionSubsystem_NoRegister) \
 	DECLARE_SERIALIZER(USpeechRecognitionSubsystem)
 
 
-#define FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_ENHANCED_CONSTRUCTORS \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	USpeechRecognitionSubsystem(USpeechRecognitionSubsystem&&); \
-	USpeechRecognitionSubsystem(const USpeechRecognitionSubsystem&); \
-public: \
+#define FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_ENHANCED_CONSTRUCTORS \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	USpeechRecognitionSubsystem(USpeechRecognitionSubsystem&&) = delete; \
+	USpeechRecognitionSubsystem(const USpeechRecognitionSubsystem&) = delete; \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USpeechRecognitionSubsystem); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USpeechRecognitionSubsystem); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USpeechRecognitionSubsystem) \
 	NO_API virtual ~USpeechRecognitionSubsystem();
 
 
-#define FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_15_PROLOG
-#define FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_GENERATED_BODY \
+#define FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_15_PROLOG
+#define FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_INCLASS_NO_PURE_DECLS \
-	FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_ENHANCED_CONSTRUCTORS \
+	FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_INCLASS_NO_PURE_DECLS \
+	FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-template<> SPEECHRECOGNITION_API UClass* StaticClass<class USpeechRecognitionSubsystem>();
+class USpeechRecognitionSubsystem;
+
+// ********** End Class USpeechRecognitionSubsystem ************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_TheMutantIsland_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h
-
+#define CURRENT_FILE_ID FID_RandomProyect1_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionSubsystem_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

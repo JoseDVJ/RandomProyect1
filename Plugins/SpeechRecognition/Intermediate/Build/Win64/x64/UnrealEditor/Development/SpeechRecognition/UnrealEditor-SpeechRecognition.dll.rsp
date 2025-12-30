@@ -1,5 +1,4 @@
-/MANIFEST:EMBED
-/MANIFESTINPUT:"..\Build\Windows\Resources\Default-Win64.manifest"
+/MANIFEST:NO
 /NOLOGO
 /DEBUG:FULL
 /errorReport:prompt
@@ -23,9 +22,9 @@
 /DELAYLOAD:"PocketSphinx.dll"
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
-/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\lib\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x64"
+/LIBPATH:"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/lib/x64"
+/LIBPATH:"C:/Program Files (x86)/Windows Kits/10/lib/10.0.22621.0/ucrt/x64"
+/LIBPATH:"C:/Program Files (x86)/Windows Kits/10/lib/10.0.22621.0/um/x64"
 /NODEFAULTLIB:"LIBCMT"
 /NODEFAULTLIB:"LIBCPMT"
 /NODEFAULTLIB:"LIBCMTD"
@@ -38,20 +37,21 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 /NOIMPLIB
-"G:\TheMutantIsland\Intermediate\Build\Win64\x64\TheMutantIslandEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
-"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\Module.SpeechRecognition.cpp.obj"
-"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\SpeechRecognition.cpp.obj"
-"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\SpeechRecognitionGameStateBase.cpp.obj"
-"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\SpeechRecognitionSubsystem.cpp.obj"
-"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\SpeechRecognitionWorker.cpp.obj"
-"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\Default.rc2.res"
-"G:\TheMutantIsland\Plugins\SpeechRecognition\ThirdParty\SphinxBase\Libraries\x64\SphinxBase.lib"
-"G:\TheMutantIsland\Plugins\SpeechRecognition\ThirdParty\PocketSphinx\Libraries\x64\PocketSphinx.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RHI\UnrealEditor-RHI.lib"
+/NOEXP
+"D:/Dev/FreeLance/RandomProyect1/Intermediate/Build/Win64/x64/RandomProyectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeechRecognition/Module.SpeechRecognition.cpp.obj"
+"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeechRecognition/SpeechRecognition.cpp.obj"
+"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeechRecognition/SpeechRecognitionGameStateBase.cpp.obj"
+"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeechRecognition/SpeechRecognitionSubsystem.cpp.obj"
+"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeechRecognition/SpeechRecognitionWorker.cpp.obj"
+"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeechRecognition/Default.rc2.res"
+"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/ThirdParty/SphinxBase/Libraries/x64/SphinxBase.lib"
+"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/ThirdParty/PocketSphinx/Libraries/x64/PocketSphinx.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/InputCore/UnrealEditor-InputCore.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/RHI/UnrealEditor-RHI.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -77,6 +77,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"G:\TheMutantIsland\Plugins\SpeechRecognition\Binaries\Win64\UnrealEditor-SpeechRecognition.dll"
-/PDB:"G:\TheMutantIsland\Plugins\SpeechRecognition\Binaries\Win64\UnrealEditor-SpeechRecognition.pdb"
+/OUT:"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/Binaries/Win64/UnrealEditor-SpeechRecognition.dll"
+/PDB:"D:/Dev/FreeLance/RandomProyect1/Plugins/SpeechRecognition/Binaries/Win64/UnrealEditor-SpeechRecognition.pdb"
 /ignore:4078

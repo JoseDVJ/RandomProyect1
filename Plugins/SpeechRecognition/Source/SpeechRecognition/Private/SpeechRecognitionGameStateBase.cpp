@@ -1,6 +1,7 @@
 
 #include "SpeechRecognitionGameStateBase.h"
 #include "SpeechRecognitionSubsystem.h"
+#include "Engine/World.h"
 
 ASpeechRecognitionGameStateBase::ASpeechRecognitionGameStateBase(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)

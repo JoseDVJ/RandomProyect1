@@ -5,31 +5,22 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ProceduralSkeletalMesh/Public/ProceduralMeshTriEdge.h"
+#include "ProceduralMeshTriEdge.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodeProceduralMeshTriEdge() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 PROCEDURALSKELETALMESH_API UScriptStruct* Z_Construct_UScriptStruct_FProceduralMeshTriEdge();
 UPackage* Z_Construct_UPackage__Script_ProceduralSkeletalMesh();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin ScriptStruct FProceduralMeshTriEdge
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_ProceduralMeshTriEdge;
-class UScriptStruct* FProceduralMeshTriEdge::StaticStruct()
-{
-	if (!Z_Registration_Info_UScriptStruct_ProceduralMeshTriEdge.OuterSingleton)
-	{
-		Z_Registration_Info_UScriptStruct_ProceduralMeshTriEdge.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FProceduralMeshTriEdge, (UObject*)Z_Construct_UPackage__Script_ProceduralSkeletalMesh(), TEXT("ProceduralMeshTriEdge"));
-	}
-	return Z_Registration_Info_UScriptStruct_ProceduralMeshTriEdge.OuterSingleton;
-}
-template<> PROCEDURALSKELETALMESH_API UScriptStruct* StaticStruct<FProceduralMeshTriEdge>()
-{
-	return FProceduralMeshTriEdge::StaticStruct();
-}
+// ********** Begin ScriptStruct FProceduralMeshTriEdge ********************************************
 struct Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics
 {
+	static inline consteval int32 GetStructSize() { return sizeof(FProceduralMeshTriEdge); }
+	static inline consteval int16 GetStructAlignment() { return alignof(FProceduralMeshTriEdge); }
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/ProceduralMeshTriEdge.h" },
@@ -41,15 +32,29 @@ struct Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics
 		{ "ModuleRelativePath", "Public/ProceduralMeshTriEdge.h" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin ScriptStruct FProceduralMeshTriEdge constinit property declarations ************
 	static const UECodeGen_Private::FIntPropertyParams NewProp_A;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_B;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End ScriptStruct FProceduralMeshTriEdge constinit property declarations **************
 	static void* NewStructOps()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FProceduralMeshTriEdge>();
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
-};
+}; // struct Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FProceduralMeshTriEdge;
+class UScriptStruct* FProceduralMeshTriEdge::StaticStruct()
+{
+	if (!Z_Registration_Info_UScriptStruct_FProceduralMeshTriEdge.OuterSingleton)
+	{
+		Z_Registration_Info_UScriptStruct_FProceduralMeshTriEdge.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FProceduralMeshTriEdge, (UObject*)Z_Construct_UPackage__Script_ProceduralSkeletalMesh(), TEXT("ProceduralMeshTriEdge"));
+	}
+	return Z_Registration_Info_UScriptStruct_FProceduralMeshTriEdge.OuterSingleton;
+	}
+
+// ********** Begin ScriptStruct FProceduralMeshTriEdge Property Definitions ***********************
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::NewProp_A = { "A", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FProceduralMeshTriEdge, A), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_A_MetaData), NewProp_A_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::NewProp_B = { "B", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FProceduralMeshTriEdge, B), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_B_MetaData), NewProp_B_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::PropPointers[] = {
@@ -57,6 +62,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FP
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::NewProp_B,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::PropPointers) < 2048);
+// ********** End ScriptStruct FProceduralMeshTriEdge Property Definitions *************************
 const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::StructParams = {
 	(UObject* (*)())Z_Construct_UPackage__Script_ProceduralSkeletalMesh,
 	nullptr,
@@ -72,24 +78,27 @@ const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FProceduralMesh
 };
 UScriptStruct* Z_Construct_UScriptStruct_FProceduralMeshTriEdge()
 {
-	if (!Z_Registration_Info_UScriptStruct_ProceduralMeshTriEdge.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_FProceduralMeshTriEdge.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_ProceduralMeshTriEdge.InnerSingleton, Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FProceduralMeshTriEdge.InnerSingleton, Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_ProceduralMeshTriEdge.InnerSingleton;
+	return CastChecked<UScriptStruct>(Z_Registration_Info_UScriptStruct_FProceduralMeshTriEdge.InnerSingleton);
 }
-// End ScriptStruct FProceduralMeshTriEdge
+// ********** End ScriptStruct FProceduralMeshTriEdge **********************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_TheMutantIsland_Plugins_Procedur9b2dd5f0147dV1_Source_ProceduralSkeletalMesh_Public_ProceduralMeshTriEdge_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_RandomProyect1_Plugins_Procedur9b2dd5f0147dV1_Source_ProceduralSkeletalMesh_Public_ProceduralMeshTriEdge_h__Script_ProceduralSkeletalMesh_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FProceduralMeshTriEdge::StaticStruct, Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::NewStructOps, TEXT("ProceduralMeshTriEdge"), &Z_Registration_Info_UScriptStruct_ProceduralMeshTriEdge, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FProceduralMeshTriEdge), 2473024933U) },
+		{ FProceduralMeshTriEdge::StaticStruct, Z_Construct_UScriptStruct_FProceduralMeshTriEdge_Statics::NewStructOps, TEXT("ProceduralMeshTriEdge"),&Z_Registration_Info_UScriptStruct_FProceduralMeshTriEdge, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FProceduralMeshTriEdge), 3664379242U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TheMutantIsland_Plugins_Procedur9b2dd5f0147dV1_Source_ProceduralSkeletalMesh_Public_ProceduralMeshTriEdge_h_4142514981(TEXT("/Script/ProceduralSkeletalMesh"),
+}; // Z_CompiledInDeferFile_FID_RandomProyect1_Plugins_Procedur9b2dd5f0147dV1_Source_ProceduralSkeletalMesh_Public_ProceduralMeshTriEdge_h__Script_ProceduralSkeletalMesh_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RandomProyect1_Plugins_Procedur9b2dd5f0147dV1_Source_ProceduralSkeletalMesh_Public_ProceduralMeshTriEdge_h__Script_ProceduralSkeletalMesh_1865662525{
+	TEXT("/Script/ProceduralSkeletalMesh"),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_TheMutantIsland_Plugins_Procedur9b2dd5f0147dV1_Source_ProceduralSkeletalMesh_Public_ProceduralMeshTriEdge_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TheMutantIsland_Plugins_Procedur9b2dd5f0147dV1_Source_ProceduralSkeletalMesh_Public_ProceduralMeshTriEdge_h_Statics::ScriptStructInfo),
-	nullptr, 0);
-// End Registration
+	Z_CompiledInDeferFile_FID_RandomProyect1_Plugins_Procedur9b2dd5f0147dV1_Source_ProceduralSkeletalMesh_Public_ProceduralMeshTriEdge_h__Script_ProceduralSkeletalMesh_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RandomProyect1_Plugins_Procedur9b2dd5f0147dV1_Source_ProceduralSkeletalMesh_Public_ProceduralMeshTriEdge_h__Script_ProceduralSkeletalMesh_Statics::ScriptStructInfo),
+	nullptr, 0,
+};
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

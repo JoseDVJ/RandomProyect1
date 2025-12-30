@@ -10,7 +10,7 @@
 	"DocsURL": "https://procedural-skeletal-mesh-documentation.s3.us-east-1.amazonaws.com/index.html",
 	"MarketplaceURL": "",
 	"SupportURL": "https://discord.gg/BMKXqAHgBw",
-	"EngineVersion": "5.5.0",
+	"EngineVersion": "5.7.0",
 	"CanContainContent": true,
 	"Installed": true,
 	"Modules": [
@@ -23,6 +23,20 @@
 				"Mac",
 				"Linux"
 			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryProcessing",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
 		}
 	]
 }

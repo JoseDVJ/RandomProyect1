@@ -2,6 +2,7 @@
 #include "SpeechRecognitionWorker.h"
 #include "SpeechRecognition.h"
 #include "SpeechRecognitionSubsystem.h"
+#include "Misc/Paths.h"
 
 //General Log
 DEFINE_LOG_CATEGORY(SpeechRecognitionPlugin);

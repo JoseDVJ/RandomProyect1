@@ -1,5 +1,6 @@
 
 #include "SpeechRecognitionSubsystem.h"
+#include "Engine/World.h"
 
 #define SPEECHRECOGNITIONPLUGIN ISpeechRecognition::Get()
 
