@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\themutantisland\\plugins\\procedur9b2dd5f0147dv1\\source\\proceduralskeletalmesh\\private\\proceduralskeletalmesh.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\themutantisland\\intermediate\\build\\win64\\x64\\themutantisland\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\themutantisland\\plugins\\procedur9b2dd5f0147dv1\\intermediate\\build\\win64\\x64\\unrealgame\\development\\proceduralskeletalmesh\\definitions.proceduralskeletalmesh.h",
+            "g:\\themutantisland\\plugins\\procedur9b2dd5f0147dv1\\source\\proceduralskeletalmesh\\public\\proceduralskeletalmesh.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

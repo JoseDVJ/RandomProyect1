@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SpeechRecognition.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\TheMutantIsland\Intermediate\Build\Win64\x64\TheMutantIslandEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\Module.SpeechRecognition.cpp.obj"
+"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\SpeechRecognition.cpp.obj"
+"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\SpeechRecognitionGameStateBase.cpp.obj"
+"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\SpeechRecognitionSubsystem.cpp.obj"
+"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\SpeechRecognitionWorker.cpp.obj"
+"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\Default.rc2.res"
+/OUT:"G:\TheMutantIsland\Plugins\SpeechRecognition\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpeechRecognition\UnrealEditor-SpeechRecognition.lib"

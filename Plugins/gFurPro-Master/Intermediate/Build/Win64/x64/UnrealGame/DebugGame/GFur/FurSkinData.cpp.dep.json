@@ -1,0 +1,38 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\private\\furskindata.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\themutantisland\\intermediate\\build\\win64\\x64\\themutantisland\\debuggame\\engine\\sharedpch.engine.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\x64\\unrealgame\\debuggame\\gfur\\definitions.gfur.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\private\\furskindata.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\private\\furdata.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\public\\fursplines.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealgame\\inc\\gfur\\uht\\fursplines.generated.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshrenderdata.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshlodrenderdata.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\multisizeindexcontainer.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshvertexbuffer.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshduplicatedverticesbuffer.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshvertexclothbuffer.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\morphtargetvertexinfobuffers.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshhalfedgebuffer.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\private\\skeletalrendergpuskin.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\externalmorphset.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\public\\skeletalrenderpublic.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\engine\\private\\animation\\meshdeformergeometry.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\rendercore\\public\\rendergraphresources.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\rhi\\public\\rhitransientresourceallocator.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\rendercore\\public\\rendergraphparameter.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\rendercore\\public\\rendergraphresources.inl",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\renderer\\public\\meshmaterialshader.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\renderer\\public\\materialshader.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\renderer\\public\\meshdrawshaderbindings.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\public\\furcomponent.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealgame\\inc\\gfur\\uht\\furcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ProceduralSkeletalMesh.cpp.obj": [
+			"GlobalSkinningMapData.gen.cpp.obj",
+			"ProceduralMeshBoneInfluence.gen.cpp.obj",
+			"ProceduralMeshSection.gen.cpp.obj",
+			"ProceduralMeshSurfaceMap.gen.cpp.obj",
+			"ProceduralMeshTriEdge.gen.cpp.obj",
+			"ProceduralMeshVertexCoord.gen.cpp.obj",
+			"ProceduralSkeletalMesh.init.gen.cpp.obj",
+			"ProceduralSkeletalMeshComponent.gen.cpp.obj",
+			"ProceduralSkeletalMeshData.gen.cpp.obj",
+			"ProceduralSkeletalMeshSeparation.gen.cpp.obj",
+			"ProceduralSkeletalMeshSeparationCarve.gen.cpp.obj",
+			"ProceduralSkeletalMeshSeparationSlice.gen.cpp.obj",
+			"ProceduralSkeletalMeshVertexSection.gen.cpp.obj",
+			"SkeletalVertexMapItem.gen.cpp.obj",
+			"SkinnedMeshPuppetComponent.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"ProceduralSkeletalMesh.cpp.obj",
+			"ProceduralSkeletalMeshComponent.cpp.obj",
+			"SkinnedMeshPuppetComponent.cpp.obj"
+		]
+	}
+}

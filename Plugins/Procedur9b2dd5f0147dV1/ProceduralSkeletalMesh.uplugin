@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ProceduralSkeletalMesh",
+	"Description": "Adds the Procedural Skeletal Mesh Component, which allows for the slicing, carving and deformation of skeletal meshes in real time!",
+	"Category": "Other",
+	"CreatedBy": "Wormbrain Games",
+	"CreatedByURL": "https://www.fab.com/sellers/Wormbrain%20Games",
+	"DocsURL": "https://procedural-skeletal-mesh-documentation.s3.us-east-1.amazonaws.com/index.html",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/BMKXqAHgBw",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ProceduralSkeletalMesh",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}

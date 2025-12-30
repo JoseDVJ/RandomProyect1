@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfureditor\\private\\sfurcombmodewidget.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\themutantisland\\intermediate\\build\\win64\\x64\\themutantislandeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gfureditor\\definitions.gfureditor.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfureditor\\private\\sfurcombmodewidget.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\input\\stextcombobox.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\layout\\swrapbox.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\propertyeditor\\public\\propertycustomizationhelpers.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\propertyeditor\\public\\idetailcustomnodebuilder.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\propertyeditor\\public\\detailwidgetrow.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\propertyeditor\\public\\idetailpropertyrow.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\propertyeditor\\public\\detailcategorybuilder.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\propertyeditor\\public\\detailbuildertypes.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\propertyeditor\\public\\propertyeditorcopypaste.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\propertyeditor\\public\\sresettodefaultmenu.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\actorpickermode\\public\\actorpickermode.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\scenedepthpickermode\\public\\scenedepthpickermode.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\classviewer\\public\\classviewermodule.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfureditor\\private\\furcomb.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfureditor\\private\\furcombsettings.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfureditor\\uht\\furcombsettings.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

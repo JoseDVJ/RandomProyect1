@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\private\\fursplines.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\themutantisland\\intermediate\\build\\win64\\x64\\themutantislandeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gfur\\definitions.gfur.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\public\\fursplines.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfur\\uht\\fursplines.generated.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\public\\gfur.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\private\\furskindata.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\private\\furdata.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\private\\furstaticdata.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gfur\\module.gfur.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\themutantisland\\intermediate\\build\\win64\\x64\\themutantislandeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gfur\\definitions.gfur.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfur\\uht\\furcomponent.gen.cpp",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\public\\furcomponent.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfur\\uht\\furcomponent.generated.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfur\\uht\\fursplines.gen.cpp",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfur\\public\\fursplines.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfur\\uht\\fursplines.generated.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfur\\uht\\gfur.init.gen.cpp",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gfur\\permoduleinline.gen.cpp",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

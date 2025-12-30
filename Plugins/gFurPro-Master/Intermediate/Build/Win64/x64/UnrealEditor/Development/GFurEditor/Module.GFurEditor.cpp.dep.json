@@ -1,0 +1,26 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gfureditor\\module.gfureditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\themutantisland\\intermediate\\build\\win64\\x64\\themutantislandeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gfureditor\\definitions.gfureditor.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfureditor\\uht\\furcombsettings.gen.cpp",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfureditor\\private\\furcombsettings.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfureditor\\uht\\furcombsettings.generated.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfureditor\\uht\\fursplineabcimporterfactory.gen.cpp",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfureditor\\private\\fursplineabcimporterfactory.h",
+            "c:\\program files\\ue_5.5\\engine\\source\\editor\\unrealed\\public\\editorreimporthandler.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfureditor\\uht\\fursplineabcimporterfactory.generated.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfureditor\\uht\\fursplineimporterfactory.gen.cpp",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\source\\gfureditor\\private\\fursplineimporterfactory.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfureditor\\uht\\fursplineimporterfactory.generated.h",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\unrealeditor\\inc\\gfureditor\\uht\\gfureditor.init.gen.cpp",
+            "g:\\themutantisland\\plugins\\gfurpro-master\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gfureditor\\permoduleinline.gen.cpp",
+            "c:\\program files\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

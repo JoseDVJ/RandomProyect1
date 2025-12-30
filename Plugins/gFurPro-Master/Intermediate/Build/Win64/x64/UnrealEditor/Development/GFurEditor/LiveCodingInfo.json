@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GFurEditor.cpp.obj": [
+			"FurCombSettings.gen.cpp.obj",
+			"FurSplineAbcImporterFactory.gen.cpp.obj",
+			"FurSplineImporterFactory.gen.cpp.obj",
+			"GFurEditor.init.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"FurComb.cpp.obj",
+			"FurCombCommands.cpp.obj",
+			"FurCombEdMode.cpp.obj",
+			"FurCombModeToolKit.cpp.obj",
+			"FurCombSettings.cpp.obj",
+			"FurComponentCustomization.cpp.obj",
+			"FurSplineAbcImporterFactory.cpp.obj",
+			"FurSplineExporter.cpp.obj",
+			"FurSplineImporterFactory.cpp.obj",
+			"FurSplinesTypeActions.cpp.obj",
+			"SFurCombModeWidget.cpp.obj",
+			"GFurEditor.cpp.obj"
+		]
+	}
+}
