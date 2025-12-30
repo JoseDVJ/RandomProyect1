@@ -797,13 +797,25 @@ FBoxSphereBounds UGFurComponent::CalcBounds(const FTransform& LocalToWorld) cons
 {
 	if (SkeletalGrowMesh)
 	{
-		const float ExpandAmount = FMath::Max(FurLength, 0.001f);
-
-		MasterBounds = MasterBounds.ExpandBy(ExpandAmount);
-		DummyBounds = DummyBounds.ExpandBy(ExpandAmount);
-		MeshBounds = MeshBounds.ExpandBy(ExpandAmount);
-		DummyBounds = DummyBounds.ExpandBy(ExpandAmount);
-
+		if (MasterPoseComponent.IsValid())
+		{
+			FBoxSphereBounds MasterBounds = MasterPoseComponent->CalcBounds(LocalToWorld);
+			MasterBounds.ExpandBy(FMath::Max(FurLength, 0.001f));
+			return MasterBounds;
+		}
+		FBoxSphereBounds DummyBounds = SkeletalGrowMesh->GetBounds();
+		DummyBounds.ExpandBy(FMath::Max(FurLength, 0.001f));
+		return DummyBounds.TransformBy(LocalToWorld);
+	}
+	else if (StaticGrowMesh)
+	{
+		FBoxSphereBounds MeshBounds = StaticGrowMesh->GetBounds();
+		MeshBounds.ExpandBy(FMath::Max(FurLength, 0.001f));
+		return MeshBounds.TransformBy(LocalToWorld);
+	}
+	FBoxSphereBounds DummyBounds = FBoxSphereBounds(FVector(0, 0, 0), FVector(0, 0, 0), 0);
+	DummyBounds.ExpandBy(FMath::Max(FurLength, 0.001f));
+	return DummyBounds.TransformBy(LocalToWorld);
 }
 
 
